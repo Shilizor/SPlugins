@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800&amp;subset=cyrillic" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -23,9 +23,9 @@
                 </div>
                 <div class="menu-list">
                     <nav>
-                        <a href="#">Мои работы</a>
-                        <a href="#">Обо мне</a>
-                        <a href="#">Контакты</a>
+                        <a href="javascript://0" onclick="slowScroll('.projects')">Мои работы</a>
+                        <a href="javascript://0" onclick="slowScroll('.about-me')">Обо мне</a>
+                        <a href="https://vk.com/shilizor">Контакты</a>
                     </nav>
                     <form action="https://vk.com/write140864619">
                         <button type="submit" class="menu-button">Написать</button>
@@ -209,7 +209,7 @@
                         </p>
                         <nav class="about-buttons">
                             <a href="https://vk.com/write140864619" class="button button-primary">Написать мне</a>
-                            <a href="#" class="button button-o">Посмотреть работы</a>
+                            <a href="javascript://0" onclick="slowScroll('.projects')" class="button button-o">Посмотреть работы</a>
                         </nav>
                     </div>
                 </div>
@@ -239,14 +239,16 @@
                 </div>
                 <div class="footer-menu">
                     <nav>
-                        <a href="#">Мои работы</a>
-                        <a href="#">Обо мне</a>
-                        <a href="#">Контакты</a>
+                        <a href="javascript://0" onclick="slowScroll('.projects')">Мои работы</a>
+                        <a href="javascript://0" onclick="slowScroll('.about-me')">Обо мне</a>
+                        <a href="https://vk.com/shilizor">Контакты</a>
                     </nav>
                     <a href="https://vk.com/write140864619" class="footer-button">Написать</a>
                 </div>
             </div>
         </div>
-    </footer>    
+    </footer>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>  
 </body>
 </html>
