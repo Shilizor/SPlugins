@@ -165,6 +165,10 @@ img{
       margin-right: 17px;
       margin-bottom: 10px;
   }
+  .button:hover{
+    box-shadow: 0 0 10px rgb(43, 43, 43);
+}
+
   .button-o{
       color: #6a696b;
       background-color: transparent;
@@ -330,5 +334,4 @@ img{
     font-size: 45px;
     font-weight: 800;
     text-transform: uppercase;
-  }ansform: uppercase;
   }
