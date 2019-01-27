@@ -307,6 +307,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 5px;
     margin-bottom: 100px;
   }
 
@@ -329,4 +330,5 @@ img{
     font-size: 45px;
     font-weight: 800;
     text-transform: uppercase;
+  }ansform: uppercase;
   }
