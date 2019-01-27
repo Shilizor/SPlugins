@@ -2,19 +2,21 @@
     .container{
         width: 965px;
     }
-    .hero-container{
-        width: 965px;
-    }
     .project-card{
         width: 48%;
+    }
+    .about-info{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-description{
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 @media (max-width: 992px){
     .container{
-        width: 760px;
-    }
-    .hero-container{
         width: 760px;
     }
 }
@@ -26,17 +28,28 @@
     .menu-list {
         display: none;
     }
-    .hero-container{
-        padding-bottom: 550px;
-    }
     .container{
         width: 95%;
     }
-    .hero-container{
-        width: 95%;
+    .hero{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .projects{
+        padding-top: 20px;
+    }
+    .hero-info{
+        width: 100%;
+        padding-bottom: 320px;
+        background-position: bottom;
+    }
+    .project-cards{
+        padding-top: 10px;
     }
     .project-card{
         width: 95%;
         margin: 30px auto;
+    }
+    .footer-info{
     }
 }

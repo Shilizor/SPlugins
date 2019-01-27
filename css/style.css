@@ -99,16 +99,10 @@ img{
   }
   .hero{
     padding-top: 112px;
-    padding-bottom: 112px;
   }
-
-  .hero-container{
-    width: 100%;
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
+  .hero-info{
     background: url("https://im0-tub-ru.yandex.net/i?id=7ee4fb1e4f12c6569cd65bc633533242&n=13") no-repeat right bottom;
-}
+  }
   .hero-subtitle{
       font-size: 32px;
 
@@ -177,7 +171,7 @@ img{
   }
 
   .projects{
-    padding: 97px 0;
+    padding: 50px 0;
   }
   
   .project-cards{
@@ -255,66 +249,6 @@ img{
     margin-top: 10px;
   }
 
-  .about-image{
-    width: 542px;
-    height: 606px;
-    background: url("https://1.bp.blogspot.com/-3SvFT_HauVA/Vo-vV4CPfsI/AAAAAAAAADY/arUI4B-A93k7tu01OCAvQqH4hwP8lyODgCKgB/s1600/developer.png") no-repeat;
-    background-size: 120%;
-  }
-
-  .about-container{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .about-description{
-    width: 50%;
-    margin-left: 100px;
-   }
-
-  .about-me{
-    text-transform: uppercase;
-    font-size: 45px;
-    font-weight: 800;
-    margin-bottom: 42px;
-  }
-
-  .about-title{
-    color: #717072;
-    font-family: Montserrat;
-    font-size: 12px;
-    font-weight: 300;
-    width: 471px;
-    height: 252px;
-    line-height: 24px;
-  }
-
-  .about-buttons{
-    margin-top: 30px;
-  }
-
-  .about-button{
-    text-decoration: none;
-    border: 2px solid grey;
-    border-radius: 35px;
-    padding: 16px 40px;
-  }
-
-  .about-primary{
-    background: #000;
-    color: #fff;
-  }
-
-  .about-o{
-    color: #6a696b;
-    background-color: transparent;
-    border: 1px solid #6a696b;
-  }
-
   .footer{
     background-color: #2b2a2c;
     padding: 20px 0;
@@ -365,4 +299,33 @@ img{
     border-radius: 50px;
     border: 1px solid #8d8d8e;
     padding: 8px 22px
+  }
+
+  /* Обо мне */
+  .about-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .aboutdescription{
+    font-size: 12px;
+    color: #717072;
+    font-weight: 300;
+    line-height: 24px;
+    width: 471px;
+    height: 252px;
+    padding-bottom: 60px;
+  }
+
+  .about-buttons{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .aboutme{
+    color: #2b2a2c;
+    font-size: 45px;
+    font-weight: 800;
+    text-transform: uppercase;
   }
