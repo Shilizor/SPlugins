@@ -1,0 +1,368 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+  }
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu{
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.avatar{
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    background: url("https://pp.userapi.com/c852236/v852236866/58a73/tbZakfVp6C4.jpg");
+    background-size: 100%;
+    
+  }
+.name{
+    display: flex;
+    font-size: 16px;
+    font-weight: 800;
+}
+.description{
+    margin-left: 9px;
+}
+
+.menu-logo{
+    display: flex;
+    align-items: center;
+}
+
+.menu-list{
+    display: flex;
+    align-items: center;
+}
+
+.menu-list a{
+    display: inline-block;
+    color: #2b2a2c;
+    line-height: 1;
+    text-decoration:none;
+    cursor: pointer;
+    position:relative;
+    font-weight: 800;
+    margin-right: 34px;
+    text-transform: uppercase;
+}
+
+.menu-list a::after{
+    background-color: #000;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left:50%;
+    position:absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+
+.menu-list a:hover::after{
+    width: 100%;
+}
+
+.menu-button{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 2px solid #2b2a2c;
+    padding: 13px 22px
+}
+
+.menu-button:hover{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50px;
+    border: 2px solid grey;
+    padding: 13px 22px;
+    cursor: pointer;
+  }
+  .hero{
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+
+  .hero-container{
+    width: 100%;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("https://im0-tub-ru.yandex.net/i?id=7ee4fb1e4f12c6569cd65bc633533242&n=13") no-repeat right bottom;
+}
+  .hero-subtitle{
+      font-size: 32px;
+
+  }
+  .hero-title{
+      font-size: 45px;
+      font-weight: 800;
+      margin-top: 5px;
+      margin-bottom: 8px;
+  }
+  .hero-description{
+      font-size: 18px;
+      color: #6a696b;
+  }
+  .hero-social{
+      margin-top: 30px;
+  }
+  .social{
+    display: inline-block;
+    width: 41px;
+    height: 41px;
+    margin-right: 10px;
+    color: #fff;
+    text-align: center;
+    line-height: 41px;
+  }
+
+  .behance-bg{
+    background-color: #1869ff;
+  }
+  
+  .facebook-bg{
+    background-color: #3a5898;
+  }
+  
+  .instagram-bg{
+    background-color: #13578a;
+  }
+  .vk-bg{
+    background-color: #56acef;
+  }
+
+  .hero-buttons{
+      margin-top: 40px;
+  }
+
+  .button{
+      font-size: 16px;
+      font-weight: 800;
+      text-decoration: none;
+      background-color: #2b2a2c;
+      border-radius: 50px;
+      padding: 20px 34px;
+      display: inline-block;
+  }
+
+  .button-primary{
+      color: #fff;
+      margin-right: 17px;
+      margin-bottom: 10px;
+  }
+  .button-o{
+      color: #6a696b;
+      background-color: transparent;
+      border: 1px solid #6a696b;
+  }
+
+  .projects{
+    padding: 97px 0;
+  }
+  
+  .project-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+  }
+  
+  .project-card{
+    overflow: hidden;
+    min-height: 370px;
+    width: 370px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    margin-bottom: 50px;
+  }
+  
+  .project-car_image{
+    height: 300px;
+  }
+  
+  .landing-page{
+    background: url("https://avatanplus.com/files/resources/original/57c14894a6171156cb0384c8.png") no-repeat center;
+    background-size: cover;
+  }
+  .landing-page1{
+    background: url("http://cybpoint.ru/web/uploaded-files/news/main-id138.jpg") no-repeat center;
+    background-size: cover;
+  }
+  .landing-page2{
+    background: url("https://techcrunch.com/wp-content/uploads/2017/10/twitch-logo.jpg") no-repeat center;
+    background-size: cover;
+  }
+  .landing-page3{
+    background: url("https://fashionnet.ru/wp-content/uploads/1-20.jpg") no-repeat center;
+    background-size: cover;
+  }
+  .landing-page4{
+    background: url("https://im0-tub-ru.yandex.net/i?id=7e40828b602e85b1a20dbb8307acdf56&n=13") no-repeat center;
+    background-size: cover;
+  }
+  .landing-page5{
+    background: url("https://vistanews.ru/uploads/posts/2018-06/1528822428_512015968.jpg.0.jpg") no-repeat center;
+    background-size: cover;
+  }
+  .landing-page6{
+    background: url("https://im0-tub-ru.yandex.net/i?id=9d1868fe5f9b470ed28a8d500456270f&n=13") no-repeat center;
+    background-size: cover;
+  }
+  .landing-page7{
+    background: url("https://upload.wikimedia.org/wikipedia/ru/b/b0/Окно_клиента_Steam.png") no-repeat center;
+    background-size: cover;
+  }
+  .landing-page8{
+    background: url("https://i.imgur.com/XPL23Fd.png") no-repeat center;
+    background-size: cover;
+  }
+
+  .project-category{
+    display: block;
+    font-size: 12px;
+    color: #2b2a2c;
+  }
+  
+  .project-card_info{
+    padding: 19px 13px;
+  }
+  
+  .project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+  }
+
+  .about-image{
+    width: 542px;
+    height: 606px;
+    background: url("https://1.bp.blogspot.com/-3SvFT_HauVA/Vo-vV4CPfsI/AAAAAAAAADY/arUI4B-A93k7tu01OCAvQqH4hwP8lyODgCKgB/s1600/developer.png") no-repeat;
+    background-size: 120%;
+  }
+
+  .about-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-description{
+    width: 50%;
+    margin-left: 100px;
+   }
+
+  .about-me{
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 42px;
+  }
+
+  .about-title{
+    color: #717072;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 300;
+    width: 471px;
+    height: 252px;
+    line-height: 24px;
+  }
+
+  .about-buttons{
+    margin-top: 30px;
+  }
+
+  .about-button{
+    text-decoration: none;
+    border: 2px solid grey;
+    border-radius: 35px;
+    padding: 16px 40px;
+  }
+
+  .about-primary{
+    background: #000;
+    color: #fff;
+  }
+
+  .about-o{
+    color: #6a696b;
+    background-color: transparent;
+    border: 1px solid #6a696b;
+  }
+
+  .footer{
+    background-color: #2b2a2c;
+    padding: 20px 0;
+    color: #8d8d8e;
+  }
+
+  .footer a {
+    color: #8d8d8e;
+  }
+
+  .footer-info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-text{
+    display: flex;
+    align-items: center;
+
+  }
+
+  .copyright{
+    padding-right: 16px;
+    margin-right: 16px;
+    border-right: 1px solid #413f41; 
+    font-size: 14px;
+  }
+
+  .footer-social__link{
+    font-size: 20px;
+    margin-right: 13px;
+    text-decoration: none;
+  }
+
+  .footer-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer-menu a {
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 30px;
+  }
+  .footer-button {
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid #8d8d8e;
+    padding: 8px 22px
+  }
