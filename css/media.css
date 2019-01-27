@@ -47,9 +47,7 @@
         padding-top: 10px;
     }
     .project-card{
-        width: 95%;
+        width: 100%;
         margin: 30px auto;
-    }
-    .footer-info{
     }
 }
