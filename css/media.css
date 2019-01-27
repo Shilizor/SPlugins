@@ -55,8 +55,11 @@
     }
 }
 
-@media (max-width: 530px){
+@media (max-width: 425px){
+    .hero-info{
+        width: 425px;
+    }
     .footer{
-        width: 530px;
+        width: 510px;
     }
 }
