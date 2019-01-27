@@ -98,7 +98,7 @@ img{
     cursor: pointer;
   }
   .hero{
-    padding-top: 112px;
+    padding-top: 60px;
   }
   .hero-info{
     background: url("https://im0-tub-ru.yandex.net/i?id=7ee4fb1e4f12c6569cd65bc633533242&n=13") no-repeat right bottom;
@@ -129,6 +129,10 @@ img{
     text-align: center;
     line-height: 41px;
     border-radius: 50%;
+  }
+
+  .social:hover{
+    box-shadow: 0 0 10px rgb(43, 43, 43);
   }
 
   .behance-bg{
@@ -288,16 +292,24 @@ img{
     text-decoration: none;
   }
 
+  .footer-social__link:hover{
+    color: #dfdfdf;
+  }
+
   .footer-menu{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-transform: uppercase; 
   }
   .footer-menu a {
     text-decoration: none;
     font-size: 14px;
     display: inline-block;
     margin-right: 30px;
+  }
+  .footer-menu a:hover{
+    text-shadow: 0 0 10px rgb(172, 168, 168);
   }
   .footer-button {
     background-color: transparent;
@@ -311,7 +323,6 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 5px;
     margin-bottom: 100px;
   }
 
