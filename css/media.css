@@ -39,19 +39,24 @@
         padding-top: 20px;
     }
     .hero-info{
-        width: 100%;
+        width: 500px;
         padding-bottom: 320px;
         background-position: bottom;
     }
     .project-cards{
         padding-top: 10px;
+        width: 440px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .project-card{
-        width: 100%;
+        width: 95%;
         margin: 30px auto;
     }
-    
+}
+
+@media (max-width: 530px){
     .footer{
-        width: 100%;
+        width: 530px;
     }
 }
