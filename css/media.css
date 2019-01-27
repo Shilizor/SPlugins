@@ -43,6 +43,11 @@
         padding-bottom: 320px;
         background-position: bottom;
     }
+    .Project-Title{
+        width: 440px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .project-cards{
         padding-top: 10px;
         width: 440px;
